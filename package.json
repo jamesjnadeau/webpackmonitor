@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A tool for monitoring webpack optimization metrics through the development process",
   "main": "app.js",
+  "engines" : { "node" : ">6" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "stats": "webpack --env production --profile --json > stats.json",
